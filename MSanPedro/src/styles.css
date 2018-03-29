@@ -3,6 +3,7 @@
 
 body {
   padding-top: 5rem;
+  overflow-x: hidden;
 }
 
 .nav-masthead .nav-link {
@@ -13,8 +14,7 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:hover{
   border-bottom-color: #008C83;
 }
 
@@ -32,4 +32,20 @@ body {
   padding-top: 5rem;
   padding: 3rem 1.5rem;
   text-align: center;
+}
+
+footer{
+  background-color: #008C83;
+  color: white;
+  width: 100vw; 
+}
+
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
 }

@@ -12,6 +12,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { CorouselComponent } from './components/corousel/corousel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProductsComponent } from './components/products/products.component';
     NavbarComponent,
     CorouselComponent,
     FooterComponent,
-    ProductsComponent
+    ProductsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
