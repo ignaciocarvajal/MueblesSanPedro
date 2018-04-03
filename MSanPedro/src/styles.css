@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   padding-top: 5rem;
@@ -34,11 +35,7 @@ body {
   text-align: center;
 }
 
-footer{
-  background-color: #008C83;
-  color: white;
-  width: 100vw; 
-}
+
 
 
 @media (min-width: 48em) {

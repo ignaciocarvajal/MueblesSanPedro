@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
+// import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,17 +8,17 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class AppComponent {
   title = 'app';
-  private fragment: string;
+  // private fragment: string;
 
-  constructor(private route: ActivatedRoute) { }
+  // constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.route.fragment.subscribe(fragment => { this.fragment = fragment; });
+    // this.route.fragment.subscribe(fragment => { this.fragment = fragment; });
   }
 
-  ngAfterViewInit(): void {
-    try {
-      document.querySelector('#' + this.fragment).scrollIntoView();
-    } catch (e) { }
-  }
+  // ngAfterViewInit(): void {
+  //   try {
+  //     document.querySelector('#' + this.fragment).scrollIntoView();
+  //   } catch (e) { }
+  // }
 }

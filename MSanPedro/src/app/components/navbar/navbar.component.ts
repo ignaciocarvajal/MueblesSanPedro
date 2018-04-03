@@ -14,8 +14,8 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() { }
 
-  goToRoute(id) {
-    document.getElementById(id).scrollIntoView(false);
-  }
+  // goToRoute(id) {
+  //   document.getElementById(id).scrollIntoView(false);
+  // }
  
 }

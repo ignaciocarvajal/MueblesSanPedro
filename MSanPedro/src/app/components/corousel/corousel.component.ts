@@ -22,7 +22,7 @@ export class CorouselComponent implements OnInit {
   private _randomImageUrls(images: Array<{id: number}>): Array<string> {
     return [1, 2, 3].map(() => {
       const randomId = images[Math.floor(Math.random() * images.length)].id;
-      return `https://picsum.photos/1920/750?image=${randomId}`;
+      return `https://picsum.photos/900/500?image=${randomId}`;
     });
   }
 }
