@@ -9,19 +9,19 @@ import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
-	{path: '', component: CorouselComponent},
-	{path: '', redirectTo: 'inicio', pathMatch: 'full'},
-	{path: 'inicio', component: CorouselComponent},
-	{path: 'servicios', component: ServicesComponent},
-	{path: 'productos', component: ProductsComponent},
-	{path: 'contacto', component: ContactComponent},
-	{path: '**', component: CorouselComponent},
+  {path: '', component: CorouselComponent},
+  {path: '', redirectTo: 'inicio', pathMatch: 'full'},
+  {path: 'inicio', component: CorouselComponent},
+  {path: 'servicios', component: ServicesComponent},
+  {path: 'productos', component: ProductsComponent},
+  {path: 'contacto', component: ContactComponent},
+  {path: '**', component: CorouselComponent},
 
 
 ];
 
 @NgModule({
-	imports: [RouterModule.forRoot(routes,{ enableTracing: true})],
-	exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes,{ enableTracing: true})],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
